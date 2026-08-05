@@ -42,6 +42,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+    }
 }
 
 dependencies {
@@ -114,4 +117,8 @@ dependencies {
     androidTestImplementation(libs.dagger.hilt.android.testing)
 
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    testImplementation("androidx.test.ext:junit:1.1.5")
+    testImplementation("androidx.test:core-ktx:1.5.0")
+    testImplementation("org.robolectric:robolectric:4.12.1")
 }
