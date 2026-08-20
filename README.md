@@ -8,9 +8,6 @@ El proyecto está desarrollado utilizando Kotlin y Jetpack Compose, aplicando un
  * William Alexander Rodríguez Valentín
  * Blayverth Reyes
 
-🎞️ Video Promocional
-(https://youtube.com/shorts/DkfQpc6ssvQ?si=AUiAAhgOkyDdDtLT)
-
 📱 Funcionalidades
 👤 Administrador / Entrenador
  * Inicio de sesión seguro mediante cuenta de Google (Credential Manager).
